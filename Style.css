@@ -1,0 +1,119 @@
+.huge-header{
+    /* background-image: url(  https://rare-gallery.com/uploads/posts/574761-armchair-black.jpg); */
+    /* background-color: brown; */
+    height: 90vh;
+    width: 100%;
+    margin-top: 2.5%;
+    margin-bottom: 3%;
+    /* width: 30%; */
+    background-repeat: no-repeat;
+
+}
+
+body {
+    height: 100%;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.caption h1{
+    font-size: 40px;
+    font-weight: bold;
+    display: inline-block;
+    }
+    .caption{
+        width: 55%;
+        text-align: Center;
+        position: absolute;
+        margin-left: 22%;
+        margin-top: 0%;
+        color: black;
+
+    }
+    .Study{
+        color: #fbc531;
+        margin-left: 0.5%;
+    }
+    p{
+        margin-top: 0%;
+        color: Black;
+    }
+
+  /* .overlay{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    background-color: rgba(0,0,0,0.7);
+} */
+
+.Images{
+    width:33.1%;
+    height:21%;
+}
+
+ul{
+    list-style-type: none;
+    position: absolute;
+    margin-top:15%;
+    margin-left: -5%;
+ 
+
+   
+}
+
+li{
+    display: inline;
+    padding-left: -1%;
+   
+
+}
+
+.container {
+    position: relative;
+    width: auto;
+  
+  }
+
+
+
+.img2 {
+    opacity: 1;
+    display: inline-block;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    width:33.1%;
+    height:21%;
+  }
+
+  .li2{
+    position: relative;
+    width: auto;
+    display: inline;
+    padding-left: -1%;  
+}
+
+.li2:hover .img2 {
+    opacity: 0.3;
+  }
+  
+  .li2:hover .middle {
+    opacity: 1;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .text {
+    color: black;
+    font-size: 25px;
+   padding-bottom: 110%;
+  }
